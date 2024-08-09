@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;;
+}
+
+.container{
+  width: 100%;
+}
+
+.container h3{
+  font-weight: 600;
+  color: #333;
+  text-align: center;
+  padding: 18px;
+  margin-top: 50px;
+  
+}
+
+.input-search{
+display: flex;
+justify-content: space-between;
+margin-right: 190px;
+margin-bottom: 20px;
+}
+
+.input-search input{
+  width: 300px;
+  margin-left: 20px;
+  padding: 4px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  outline: none;
+}
+
+.btn{
+  padding: 8px 10px;
+  color: #fff;
+  background-color: #beb6b6;
+  border:none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.green{
+  background-color: green;
+}
+
+.btn.green:hover{
+  background-color: rgb(1, 112, 1);
+}
+
+.red{
+  background-color: red;
+}
+
+.btn.red:hover{
+  background-color: rgb(210, 4, 4);
+}
+
+
+table{
+width: 100%;
+border-collapse: collapse;
+cursor: pointer;
+}
+
+th,
+td{
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+th{
+  background-color: #f2f2f2;
+}
+
+tr{
+  text-align: center;
+}
+
+table tr:nth-child(even){
+  background-color: #f2f2f2;
+}
+
+table tr:hover{
+  background-color: #ddd;
+  cursor: pointer;
+}
+
+.model{
+  display: block;
+  position: fixed;
+  top:0;
+  left: 0;
+  z-index: 1;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  overflow: auto;
+}
+
+.model-content{
+  background-color: #fff;
+  margin: 20px auto;
+  padding: 20px;
+  border: 1px solid #ddd;
+  width: 80%;
+}
+
+.close{
+ float: right;
+ font-size: 26px;
+ color: #beb6b6;
+ font-weight: bold;
+}
+
+.close:hover{
+  color: #333;
+  cursor: pointer;
+}
+
+.model-content h2{
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+
+.input-field{
+  margin-bottom: 10px;
+}
+
+.input-field label{
+  display: block;
+  margin-bottom: 5px;
+}
+
+.input-field input{
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 4px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  outline: none;
+}
